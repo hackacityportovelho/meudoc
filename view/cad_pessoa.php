@@ -6,22 +6,13 @@
     <body class="bg-light">
         <div class="container">
             
-            <form class="card p-2">
-                <div class="input-group">
-                <input class="form-control" placeholder="Promo code" type="text">
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-secondary">Redeem</button>
-                </div>
-                </div>
-            </form>
-            </div>
             <div class="col-md-8 order-md-1">
-            <h4 class="mb-3">Billing address</h4>
+            <h4 class="mb-3">Identificação</h4>
             <form class="needs-validation" novalidate="">
                 <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="firstName">First name</label>
-                    <input class="form-control" id="firstName" placeholder="" value="" required="" type="text">
+                    <label for="firstName">Nome Completo</label>
+                    <input class="form-control" id="nome_completo" placeholder="João da Silva Sauro" value="" required="" type="text">
                     <div class="invalid-feedback">
                     Valid first name is required.
                     </div>
